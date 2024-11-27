@@ -37,7 +37,7 @@ for i = 1:size(SVM_TrainOpt,1)
     switch SVM_TrainOpt{i,1}
         case 'kernel_function'
             kernel_function = SVM_TrainOpt{i,2};
-        case 'polynomial'
+        case 'PolynomialOrder'
             polynomial_order = SVM_TrainOpt{i,2};
         case 'kernel_scale'
             kernel_scale = SVM_TrainOpt{i,2};
